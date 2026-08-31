@@ -373,7 +373,7 @@ enabled = []
 
 [shell]
 app_icon_colorize = false
-avatar_path = ""
+avatar_path = "/home/ktdawson/Pictures/Icons/coffee2.jpg"
 button_borders = true
 card_borders = true
 clipboard_auto_paste = "auto"
@@ -410,7 +410,7 @@ time_format = "{:%H:%M}"
     speed = 1.0
 
     [shell.greeter_sync]
-    auto_sync = false
+    auto_sync = true
 
     [shell.keyboard_layout]
 
