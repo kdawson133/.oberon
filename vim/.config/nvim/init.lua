@@ -23,10 +23,3 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.keymap.set("n", "<C-l>", ":Lazy<CR>")
 require('lazy').setup({ { import = 'plugins' } })
-
-vim.cmd [[
-  highlight Normal guibg=none
-  highlight NonText guibg=none
-  highlight Normal ctermbg=none
-  highlight NonText ctermbg=none
-]]
