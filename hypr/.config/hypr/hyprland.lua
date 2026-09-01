@@ -38,7 +38,7 @@ hl.monitor({
 local terminal    = "ghostty"
 local fileManager = "nautilus"
 local menu = "fuzzel"
-
+local browser ="brave-origin"
 
 -------------------
 ---- AUTOSTART ----
@@ -274,6 +274,7 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
