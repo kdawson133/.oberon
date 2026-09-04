@@ -1,2 +1,2 @@
-# .oberon
+# .oberon-hyprland
 Experimental Configuration
